@@ -1,0 +1,45 @@
+package week3.day;
+
+public class Transport extends Car
+
+{
+  public static void main(String[] args) 
+  
+  {
+	Transport tr=new Transport();
+	tr.applyBreak();
+	tr.soundHorn();
+	tr.noOfWheels();
+	tr.autoStart();
+	tr.addLuxury();
+	tr.applyGear();
+
+  }
+}
+
+
+
+
+package week3.day;
+
+public class Vehicle 
+{
+
+
+   	public void applyBreak()
+	
+	{
+	
+	System.out.println("Apply break");
+		
+
+	}
+	
+	public void soundHorn()
+	{
+		
+	System.out.println("sound horn");
+	
+	}
+		
+}
